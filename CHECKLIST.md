@@ -24,11 +24,11 @@
 - [x] Write up cleaning decisions in a short markdown log
 
 ## Phase 2 — Schema Design & Load into PostgreSQL (Days 4–5)
-- [ ] Design normalized schema: `customers`, `products`, `orders`, `order_lines`, `countries`
-- [ ] Write DDL scripts (`/sql/schema.sql`)
-- [ ] Create tables in Postgres via DBeaver
-- [ ] Write Python load script (SQLAlchemy) to push cleaned data into schema
-- [ ] Validate row counts / spot-check a few records match source data
+- [x] Design normalized schema: `customers`, `products`, `orders`, `order_lines`, `countries`
+- [x] Write DDL scripts (`/sql/schema.sql`)
+- [x] Create tables in Postgres via DBeaver
+- [x] Write Python load script (SQLAlchemy) to push cleaned data into schema
+- [x] Validate row counts / spot-check a few records match source data
 
 ## Phase 3 — SQL Analytical Layer (Days 5.5–7)
 - [ ] Monthly revenue trend query
