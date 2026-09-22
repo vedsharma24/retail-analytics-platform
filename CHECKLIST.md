@@ -15,13 +15,13 @@
 - [x] Write initial `README.md` with project goal/stack (fill in details as you go)
 
 ## Phase 1 — Clean & Explore in Python (Days 2–3)
-- [ ] Load both sheets/years, merge into single dataframe
-- [ ] Profile data: nulls, dtypes, duplicates, negative values
-- [ ] Decide + document handling for: cancelled orders (`C` prefix), missing `CustomerID`, negative `Quantity`/`UnitPrice`, non-product stock codes (postage, fees, manual entries)
-- [ ] Deduplicate line items where appropriate
-- [ ] Create derived fields (`LineTotal`, cleaned `InvoiceDate` as datetime, `IsCancelled` flag)
-- [ ] Save cleaned dataset to `/data/processed` (parquet or CSV)
-- [ ] Write up cleaning decisions in a short markdown log
+- [x] Load both sheets/years, merge into single dataframe
+- [x] Profile data: nulls, dtypes, duplicates, negative values
+- [x] Decide + document handling for: cancelled orders (`C` prefix), missing `CustomerID`, negative `Quantity`/`UnitPrice`, non-product stock codes (postage, fees, manual entries)
+- [x] Deduplicate line items where appropriate
+- [x] Create derived fields (`LineTotal`, cleaned `InvoiceDate` as datetime, `IsCancelled` flag)
+- [x] Save cleaned dataset to `/data/processed` (parquet or CSV)
+- [x] Write up cleaning decisions in a short markdown log
 
 ## Phase 2 — Schema Design & Load into PostgreSQL (Days 4–5)
 - [ ] Design normalized schema: `customers`, `products`, `orders`, `order_lines`, `countries`
